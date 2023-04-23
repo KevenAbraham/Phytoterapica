@@ -13,6 +13,12 @@
     text-decoration: underline;
     letter-spacing: 1px;
     font-weight: normal;
+    cursor: pointer;
+    transition: .25s all;
+}
+
+.belowTerms:hover {
+    color: #98b020;
 }
 
 .belowLine {

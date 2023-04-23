@@ -46,6 +46,7 @@
     border-radius: 50px;
     font-size: 11px;
     transition: .25s all;
+    cursor: pointer;
 }
 
 .serumButton:hover {
