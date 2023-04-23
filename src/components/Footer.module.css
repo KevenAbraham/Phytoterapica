@@ -1,0 +1,85 @@
+footer {
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-around;
+}
+
+.textArea {
+    width: 229px;
+    color: #797979;
+}
+
+.textArea h1 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.textArea p {
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.payment {
+    width: 174px;
+    text-align: center;
+}
+
+.payment h1 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.lastItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerLogoImg {
+    width: 227px;
+    height: 47px;
+}
+
+.footerLine {
+    width: 100%;
+    background-color: #4d4d4d;
+    height: 1px;
+    margin: 10px 0;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.socialBox {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    align-items: center;
+    transition: .25s all;
+}
+.socialBox p {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.socialBox:hover {
+    border-color: #98b020;
+    color: #98b020;
+}
+
+.pSpace {
+    padding-top: 20px;
+}

@@ -9,6 +9,9 @@ import Serum from './components/Serum';
 import Imagens from './components/Imagens';
 import Lancamentos from './components/Lancamentos';
 import Newsletter from './components/Newsletter';
+import SecondInformation from './components/SecondInformation';
+import Footer from './components/Footer';
+import BelowFooter from './components/BelowFooter';
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
       <Imagens />
       <Lancamentos />
       <Newsletter />
+      <SecondInformation />
+      <Footer />
+      <BelowFooter />
     </div>
   );
 }

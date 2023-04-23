@@ -1,0 +1,39 @@
+.secondInfoContainer {
+    height: 101px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+}
+
+.secondInfoBox {
+    display: flex;
+    align-items: center;
+}
+
+.secondInfoImg {
+    height: 45px;
+    width: 45px;
+}
+
+.secondInfoText {
+    padding-left: 22px;
+    width: 247px;
+}
+
+.secondInfoH1 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.secondInfoP {
+    font-size: 14px;
+}
+
+.secondInfoLine {
+    height: 50px;
+    width: 1px;
+    background-color: #4c4c4c;
+    margin: 0 20px;
+}
