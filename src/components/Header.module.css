@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 105px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 70px;
+  margin-left: 20px;
+}
+
+.container {
+  display: flex;
+  margin-right: 20px;
+  width: 55%;
+  align-items: center;
+
+}
+
+.headerInput {
+  border: 1px solid #d1d1d1;
+  border-radius: 50px;
+  height: 30px;
+  padding: 0 60px;
+  text-align: center;
+}
+
+.discount {
+  display: flex;
+  justify-content: space-around;
+  width: 244px;
+  height: 32px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  align-items: center;
+  margin: 0 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+}    
+
+.headerP {
+  width: 80%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.icon {
+  display: flex;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #504f4f;
+}
+
+.headerH3 {
+  text-align: center;
+  padding: 4px 4px;
+  color: #fff;
+}
+
+.headerH2 {
+  margin-left: 24px;
+}

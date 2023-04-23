@@ -1,0 +1,6 @@
+.sectionBanner {
+    height: 367px;
+    width: 100%;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+}

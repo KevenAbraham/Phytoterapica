@@ -1,0 +1,20 @@
+.imagensContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.imagensImg1 {
+    margin-right: 5px;
+    background: url(../img/higieneImg.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 367px;
+}
+
+.imagensImg2 {
+    background: url(../img/aromaterapiaImg.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 367px;
+}

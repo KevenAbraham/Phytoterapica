@@ -1,0 +1,63 @@
+.serumContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.serumText {
+    width: 372px;
+    height: 390px;
+    padding: 0 51px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.serumTitle {
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.serumTextArea {
+    margin: 16px 0;
+}
+
+.serumDescTitle {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    color: #303030;
+}
+
+.serumDesc {
+    margin: 14px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.serumButton {
+    margin-top: 12px;
+    width: 142px;
+    height: 32px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #414141;
+    border-radius: 50px;
+    font-size: 11px;
+    transition: .25s all;
+}
+
+.serumButton:hover {
+    background-color: #ccc;
+    border-color: #969696;
+}
+
+.serumImg {
+    width: 242px;
+    height: 385px;
+    background: url(../img/bellaImg.jpg);
+    background-size: cover;
+}
+
+

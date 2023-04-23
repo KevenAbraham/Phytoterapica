@@ -1,0 +1,32 @@
+.information {
+    height: 80px;
+    background-color: #98b020; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    width: 281px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.imgInfo {
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+}
+
+.titleBox {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    width: 150px;
+}
+
+.descBox {
+    font-size: 14px;
+    color: #fff;
+}

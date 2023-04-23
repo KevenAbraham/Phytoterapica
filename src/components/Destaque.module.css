@@ -1,0 +1,67 @@
+.scetionContainer {
+    height: 600px;
+    width: 100%;
+}
+
+.destaqueH1 {
+    font-size: 22px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.containerBox {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.destaqueBox {
+    width: 284px;
+}
+
+.destaqueImg1 {
+    width: 284px;
+    height: 284px;
+    background: url(../img/lavandaImg.jpg);
+    background-size: cover;
+}
+
+.destaqueImg2 {
+    width: 284px;
+    height: 284px;
+    background: url(../img/mouvementImg.jpg);
+    background-size: cover;
+}
+
+.destaqueImg3 {
+    width: 284px;
+    height: 284px;
+    background: url(../img/laranjaImg.jpg);
+    background-size: cover;
+}
+
+.destaqueImg4 {
+    width: 284px;
+    height: 284px;
+    background: url(../img/hortelaImg.jpg);
+    background-size: cover;
+}
+
+.destaqueH2 {
+    font-size: 16px;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+
+span {
+    color: #98b020;
+    font-weight: bold;
+}
+
+.destaqueDesc {
+    display: block;
+    color: #4b4b4b;
+}
+
+

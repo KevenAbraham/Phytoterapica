@@ -1,0 +1,44 @@
+.newsBackground {
+    height: 120px;
+    width: 100%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textArea {
+    width: 252px;
+    text-transform: uppercase;
+}
+
+.newsH1 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.newsDesc {
+    font-size: 12px;
+    width: 200px;
+}
+
+.newsInput {
+    width: 379px;
+    height: 36px;
+    padding: 1px 16px;
+    border-radius: 50px;
+    border: 1px solid #7a7a7a;
+}
+
+.newsButton {
+    font-size: 12px;
+    color: #fff;
+    background-color: #98b020;
+    border-radius: 50px;
+    padding: 2px 4px;
+    width: 250px;
+    height: 38px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    border: none;
+}

@@ -1,0 +1,7 @@
+.secondBannerImg {
+    background: url(../img/secondBanner.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 368px;
+    margin: 0px auto 100px auto;
+}
