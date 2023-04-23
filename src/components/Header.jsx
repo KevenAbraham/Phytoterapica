@@ -11,7 +11,7 @@ function Header() {
                 <img src={logo} alt="Logo" title="LogoPhytoterapica" className={style.logo} />
 
                 <div className={style.container}>
-                    <input className={style.headerInput} type="text" name="search" id="searchBox" placeholder="O que você procura?" />
+                    <input className={style.headerInput} type="text" autoComplete="off" name="search" id="searchBox" placeholder="O que você procura?" />
 
                     <div className={style.discount}>
                         <p className={style.headerP}>-5% na primeira compra</p>
