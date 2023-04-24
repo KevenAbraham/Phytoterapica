@@ -1,6 +1,20 @@
 .sectionBanner {
-    height: 367px;
+    height: 222px;
     width: 100%;
-    background: url(../img/banner.jpg);
+    background: url(https://img.freepik.com/fotos-gratis/vista-alta-angulo-de-spa-produtos-branco-fundo_23-2147971432.jpg?size=626&ext=jpg&ga=GA1.1.683903403.1676235453&semt=robertav1_2_sidr);
     background-size: cover;
+
+}
+
+.bannerH1 {
+    padding: 60px 0 0 60px;
+    text-transform: capitalize;
+    color: #4d4d4d;
+    font-size: 32px;
+}
+
+.bannerP {
+    padding: 0 0 0 60px;
+    font-size: 20px;
+    width: 65%;
 }

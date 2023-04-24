@@ -1,0 +1,56 @@
+.sectionFiltro {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    padding: 40px 0 0 40px;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.links p {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.links li {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 20px 0 0 0;
+    margin: auto;
+}
+
+.inputFiltro {
+    display: flex;
+}
+
+.inputFiltro .boxes {
+    align-items: center;
+    display: flex;
+    width: 247px;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #808080;
+    color: #808080;
+    padding-left: 20px;
+    transition: .25s all;
+    cursor: pointer;
+}
+
+.inputFiltro .boxes:hover {
+    border-color: #000;
+    color: #000;
+}
